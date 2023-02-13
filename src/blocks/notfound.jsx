@@ -1,9 +1,11 @@
 const Page404 = () => {
-    return (
-      <div>
-        <p>Header Here</p>
+  return (
+    <div className="container mx-auto">
+      <div className="py-4">
+        <p>Page Not found</p>
       </div>
-    );
-  };
-  
-  export default Page404;
+    </div>
+  );
+};
+
+export default Page404;
